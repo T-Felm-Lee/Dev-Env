@@ -43,8 +43,10 @@ call "\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\B
  
  ✅Step 5:  Change "Target:" to the following and make sure you use the .bat that matched your VS2019 install: 
  
- ```%windir%\system32\cmd.exe /k  "C:\yourdir\vcvarsallCLshell\shell_VS2019_CE.bat"```  change 'yourdir' to the location of vcvarsallCLshell folder (the location you copied earlier from when you cloned the repository)
- - For example my folder name is 'Development'so I replace 'yourdir' with 'Development':
+ ```%windir%\system32\cmd.exe /k  "C:\your dir\vcvarsallCLshell\your VS edition bat"```  
+ - change 'your dir' to the location of vcvarsallCLshell folder (the location you copied earlier from when you cloned the repository)
+ - change 'your VS edition bat' to the corresponding VS2019 edition you have installed.
+ - For example my folder name is 'Development'so I replace 'yourdir' with 'Development' and my VS2019 edition is Community so I use 'shell_VS2019_CE.bat:
    ```
    "C:\Development\vcvarsallCLshell\shell_VS2019_CE.bat"
    ```
