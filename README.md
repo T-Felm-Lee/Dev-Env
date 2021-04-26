@@ -4,6 +4,7 @@
  
  Abbreviations used:
  - dir = directory
+ - cd  = change directory
  
  Steps with ✅ are ***mandatory*** to get this to work.
  
