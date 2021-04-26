@@ -14,7 +14,7 @@
  ❓ The included shell.bat file is configured for a normal VS2019 Community install, the location of your vcvarsall.bat may be different based on what you have installed.  
  
  ❓ A quick search on your harddrive "vcvarsall" should find the file if it is installed.  
- - When you do find it you can change the shell.bat to match the dir of your vcvarsall.bat file.  Please let me know if this happens and what the path of the vcvarsall was so I can make more shell.bat files to match different machines or installs of VS/SDK.
+ - When you do find it you can edit the shell.bat (using any text editor) to match the dir of your vcvarsall.bat file.  Please let me know if this happens and what the path of the vcvarsall was so I can make more shell.bat files to match different machines or installs of VS/SDK.
 
 ❓ Base shell.bat file contents, the path will need to be changed to be where your vcvarsall.bat file is located if you have a different install of VS or you only installed the Microsoft SDK for C++
 ```
