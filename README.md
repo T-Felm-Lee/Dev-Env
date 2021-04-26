@@ -50,7 +50,7 @@ C:\Development> (this is based on the "Start in:" location in Step 6)
   - Font: Lucida Console with font size 18 (very readable).
   - Colors(r,g,b): **Screen Text**: 193,156,0  **Screen Background**: 12,12,12
 
-You are now all set to start compiling code with CL using vcvarsall.bat!
+👍 You are now all set to start compiling code with CL using vcvarsall.bat! 👍
 
 Examples of use:
 
@@ -59,7 +59,7 @@ Examples of use:
  - I reccomend you use this if you are compiling once or twice, any more than that make a build.bat file in the dir and call that (shown below).
 
 2. You are using "ENTER GENERIC TEXT EDITOR NAME HERE" and need to compile:
- - yourprojectname.cpp need to be compiled but you don't have a compiler attached to NP++
+ - yourprojectname.cpp needs to be compiled but you don't have a compiler attached to your text editor.
  - create a build.bat file located in your code folder where yourprojectname.cpp is at with the following code:
  
 ``` 
