@@ -2,9 +2,16 @@
 
  shell.bat for vcvarsall.bat command line setup, used to build C++ code from command line instead of in Visual Studio but using Microsofts Compiler.
  
- Steps with ✅ are **mandatory** to get this to work.
+ Steps with ✅ are ***mandatory*** to get this to work.
  
- Steps with ☑️ are *reccomended* but not mandatory.
+ Steps with ☑️ are **reccomended** but not mandatory.
+ 
+ Items marked with ❓ are _informational_, look at these and make sure the information in these match your machine, if it doesn't please let me know and I will add to this.
+ 
+ ❓ The included shell.bat file is configured for a normal VS2019 Community install, the location of your vcvarsall.bat may be different based on what you have installed.  
+ 
+ ❓ A quick search on your harddrive "vcvarsall" should find the file if it is installed.  
+ - When you do find it you can change the shell.bat to match the dir of your vcvarsall.bat file.  Please let me know if this happens and what the path of the vcvarsall was so I can make more shell.bat files to match different machines or installs of VS/SDK.
  
  ✅Step 1:  Clone Repository onto your machine anywhere, ```you will need this path later``` so remember it or copy it.
  
