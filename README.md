@@ -39,12 +39,14 @@ call "\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\B
  
  ✅Step 3:  Right click cmd.exe and create a shortcut to desktop (or anywhere you want, but it HAS to be a shortcut!)
  
- ✅Step 4:  Go to the shortcut > right click > Properties
+ ✅Step 4:  Go to the Shortcut > Right Click > Properties > Shortcut
  
- ✅Step 5:  Change "Target:" to: ```%windir%\system32\cmd.exe /k  "C:\yourdir\vcvarsallCLshell\shell.bat"```  change 'yourdir' to the location of vcvarsallCLshell folder (the location you copied earlier from when you cloned the repository)
+ ✅Step 5:  Change "Target:" to the following and make sure you use the .bat that matched your VS2019 install: 
+ 
+ ```%windir%\system32\cmd.exe /k  "C:\yourdir\vcvarsallCLshell\shell_VS2019_CE.bat"```  change 'yourdir' to the location of vcvarsallCLshell folder (the location you copied earlier from when you cloned the repository)
  - For example my folder name is 'Development'so I replace 'yourdir' with 'Development':
    ```
-   "C:\Development\vcvarsallCLshell\shell.bat"
+   "C:\Development\vcvarsallCLshell\shell_VS2019_CE.bat"
    ```
  
  ☑️Step 6:  Change the "Start in:" to the starting location for your code, for me its **C:\Development** this folder on my drive holds all my repositories.  This way I can cd into whatever I am working on directly.  Another option would be to setup multiple cmd.exe shortcuts for each project and house them in the repositories of your choice.
