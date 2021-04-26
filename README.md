@@ -12,7 +12,14 @@
  
  ❓ A quick search on your harddrive "vcvarsall" should find the file if it is installed.  
  - When you do find it you can change the shell.bat to match the dir of your vcvarsall.bat file.  Please let me know if this happens and what the path of the vcvarsall was so I can make more shell.bat files to match different machines or installs of VS/SDK.
- 
+
+❓ Base shell.bat file contents
+```
+@echo off
+
+call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+```
+
  ✅Step 1:  Clone Repository onto your machine anywhere, ```you will need this path later``` so remember it or copy it.
  
  ✅Step 2:  Open your Windows directory > System 32 for example: **C:\WINDOWS\system32** and find _cmd.exe_
