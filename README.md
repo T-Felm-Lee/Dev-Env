@@ -10,20 +10,20 @@
  Steps with ☑️ are **reccomended** but not mandatory.
  
  Items marked with ❓ are _informational_, look at these and make sure the information in these match your machine, if it doesn't please let me know and I will add to this.
+
+ ✅Step 1:  Clone Repository onto your machine anywhere, ```you will need this path later``` so remember it or copy it.
  
- ❓ The included shell.bat file is configured for a normal VS2019 Community install, the location of your vcvarsall.bat may be different based on what you have installed.  
+  ❓ The included shell.bat file is configured for a normal VS2019 Community install, the location of your vcvarsall.bat may be different based on what you have installed.  
  
- ❓ A quick search on your harddrive "vcvarsall" should find the file if it is installed.  
+  ❓ A quick search on your harddrive "vcvarsall" should find the file if it is installed.  
  - When you do find it you can edit the shell.bat (using any text editor) to match the dir of your vcvarsall.bat file.  Please let me know if this happens and what the path of the vcvarsall was so I can make more shell.bat files to match different machines or installs of VS/SDK.
 
-❓ Base shell.bat file contents, the path will need to be changed to be where your vcvarsall.bat file is located if you have a different install of VS or you only installed the Microsoft SDK for C++
+  ❓ Base shell.bat file contents, the path will need to be changed to be where your vcvarsall.bat file is located if you have a different install of VS or you only installed the Microsoft SDK for C++
 ```
 @echo off
 
 call "\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
 ```
-
- ✅Step 1:  Clone Repository onto your machine anywhere, ```you will need this path later``` so remember it or copy it.
  
  ✅Step 2:  Open your Windows directory > System 32 for example: **C:\WINDOWS\system32** and find _cmd.exe_
  
