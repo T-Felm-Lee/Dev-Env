@@ -36,14 +36,16 @@ You are now all set to start compiling code with CL using vcvarsall.bat!
 
 Examples of use:
 
- - create a build.bat file located in your code repository of choice with the following code:
+1. You are using Notepad++ and need to compile:
+ - yourprojectname.cpp need to be compiled but you don't have a compiler attached to NP++
+ - create a build.bat file located in your code folder where yourprojectname.cpp is at with the following code:
  
 ``` 
 @echo off
 
 mkdir ..\yourprojectname_build
 pushd ..\yourprojectname_build
-cl /EHsc -FC -Zi \Development\yourprojectname\code\win32_yourprojectname.cpp user32.lib gdi32.lib
+cl \Development\yourprojectname\code\yourprojectname.cpp
 popd
 ```
 
