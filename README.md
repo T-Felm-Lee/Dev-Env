@@ -20,12 +20,15 @@
 
  ✅Step 1:  Clone this repository onto your machine anywhere, ```you will need this path later``` so remember it or copy it.
  
-  ❓ The included shell.bat file is configured for a normal VS2019 Community install, the location of your vcvarsall.bat may be different based on what you have installed.  
- 
-  ❓ A quick search on your harddrive "vcvarsall" should find the file if it is installed.  
- - When you do find it you can edit the shell.bat (using any text editor) to match the dir of your vcvarsall.bat file.  Please let me know if this happens and what the path of the vcvarsall was so I can make more shell.bat files to match different machines or installs of VS/SDK.
+  ❓ The included shell.bat files are configured for VS2019 Community, Professional or Enterpise install, the location of your vcvarsall.bat may be different based on what you have installed but the shell.bat corresponding to your install should have the correct path.
+  
+  ❓ shell_VS2019_CE.bat = Community edition (the free edtion that most people will use)
+  
+  ❓ shell_VS2019_Pro.bat = Professional edition 
+  
+  ❓ shell_VS2019_Ent.bat = Enterprise edition
 
-  ❓ Base shell.bat file contents, the path will need to be changed to be where your vcvarsall.bat file is located if you have a different install of VS or you only installed the Microsoft SDK for C++
+  ❓ Base shell.bat file contents, Community edition file is shown:
 ```
 @echo off
 
