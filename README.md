@@ -26,6 +26,8 @@ call "\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\B
 ** Copyright (c) 2021 Microsoft Corporation
 **********************************************************************
 [vcvarsall.bat] Environment initialized for: 'x64'
+
+C:\Development>
 ```
 
  ✅Step 1:  Clone Repository onto your machine anywhere, ```you will need this path later``` so remember it or copy it.
