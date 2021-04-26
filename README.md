@@ -62,7 +62,7 @@ C:\Development> (this is based on the "Start in:" location in Step 6)
 
 Examples of use:
 
-1. You have a stadalone file yourfile.cpp that you want to build
+1. You have a stand alone file yourfile.cpp that you want to build
  - in the dir of the file type ```cl yourfile.cpp``` this compiles the file the same as if you used a .bat file.
  - I reccomend you use this if you are compiling once or twice, any more than that make a build.bat file in the dir and call that (shown below).
 
