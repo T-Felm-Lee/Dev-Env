@@ -19,6 +19,14 @@
 
 call "\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
 ```
+❓ A successful load of the vcvarsall.bat via the shell after the steps below are accomplished will look like this:
+```
+**********************************************************************
+** Visual Studio 2019 Developer Command Prompt v16.9.4
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+```
 
  ✅Step 1:  Clone Repository onto your machine anywhere, ```you will need this path later``` so remember it or copy it.
  
