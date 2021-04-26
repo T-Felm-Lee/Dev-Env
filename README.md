@@ -12,7 +12,7 @@
  
  Items marked with ❓ are _informational_, look at these and make sure the information in these match your machine, if it doesn't please let me know and I will add to this.
 
- ✅Step 1:  Clone Repository onto your machine anywhere, ```you will need this path later``` so remember it or copy it.
+ ✅Step 1:  Clone this repository onto your machine anywhere, ```you will need this path later``` so remember it or copy it.
  
   ❓ The included shell.bat file is configured for a normal VS2019 Community install, the location of your vcvarsall.bat may be different based on what you have installed.  
  
@@ -40,7 +40,7 @@ call "\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\B
  
  ☑️Step 6:  Change the "Start in:" to the starting location for your code, for me its **C:\Development** this folder on my drive holds all my repositories.  This way I can cd into whatever I am working on directly.  Another option would be to setup multiple cmd.exe shortcuts for each project and house them in the repositories of your choice.
  
- ❓ A successful load of the vcvarsall.bat via the shell after the steps below are accomplished will look like this:
+ ❓ A successful load of the vcvarsall.bat via the shell, after the steps above are accomplished, will look like this:
 ```
 **********************************************************************
 ** Visual Studio 2019 Developer Command Prompt v16.9.4
