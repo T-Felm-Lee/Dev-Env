@@ -27,7 +27,7 @@ call "\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\B
 **********************************************************************
 [vcvarsall.bat] Environment initialized for: 'x64'
 
-C:\Development>
+C:\Development> (this is based on the "Start in:" location in Step 6)
 ```
 
  ✅Step 1:  Clone Repository onto your machine anywhere, ```you will need this path later``` so remember it or copy it.
