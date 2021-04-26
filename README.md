@@ -24,3 +24,20 @@
  
   - Font: Lucida Console with font size 18 (very readable).
   - Colors(r,g,b): **Screen Text**: 193,156,0  **Screen Background**: 12,12,12
+
+You are now all set to start compiling code with CL using vcvarsall.bat!
+
+Examples of use:
+
+ - create a build.bat file located in your code repository of choice with the following code:
+ 
+``` 
+@echo off
+
+mkdir ..\yourprojectname_build
+pushd ..\yourprojectname_build
+cl /EHsc -FC -Zi \Development\yourprojectname\code\win32_yourprojectname.cpp user32.lib gdi32.lib
+popd
+```
+
+This will create a folder named yourprojectname_build one folder outside of your "code" folder and place the built files in it **win32_yourprojectname.exe** and so on.
