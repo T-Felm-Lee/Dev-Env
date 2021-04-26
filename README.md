@@ -53,7 +53,11 @@ You are now all set to start compiling code with CL using vcvarsall.bat!
 
 Examples of use:
 
-1. You are using Notepad++ and need to compile:
+1. You have a stadalone file yourfile.cpp that you want to build
+ - in the dir of the file type ```cl yourfile.cpp``` this compiles the file the same as if you used a .bat file.
+ - I reccomend you only use this if you are compiling once or twice, any more than that make a build.bat file in the dir and call that (shown below).
+
+2. You are using Notepad++ and need to compile:
  - yourprojectname.cpp need to be compiled but you don't have a compiler attached to NP++
  - create a build.bat file located in your code folder where yourprojectname.cpp is at with the following code:
  
