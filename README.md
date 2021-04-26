@@ -2,6 +2,9 @@
 
  shell.bat for vcvarsall.bat command line setup, used to build C++ code from command line instead of in Visual Studio but using Microsofts Compiler.
  
+ Abbreviations used:
+ - dir = directory
+ 
  Steps with ✅ are ***mandatory*** to get this to work.
  
  Steps with ☑️ are **reccomended** but not mandatory.
