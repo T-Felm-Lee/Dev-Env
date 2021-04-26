@@ -2,6 +2,10 @@
 
  shell.bat for vcvarsall.bat command line setup, used to build C++ code from command line instead of in Visual Studio but using Microsofts Compiler.
  
+ These instructions assume an install of Microsofts Visual Studio (any edition) or Microsoft SDK prior to setup.
+ 
+ If vcvarsall.bat isn't on your machine but you do have VS2019 or other installed open the 'visual studio installer' and make sure the Visual C++ workload is installed.  If it is, uninstall it and reinstall it, this should replace the vcvarsall.bat file.
+ 
  Abbreviations used:
  - dir = directory
  - cd  = change directory
