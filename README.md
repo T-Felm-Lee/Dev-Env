@@ -13,21 +13,11 @@
  ❓ A quick search on your harddrive "vcvarsall" should find the file if it is installed.  
  - When you do find it you can change the shell.bat to match the dir of your vcvarsall.bat file.  Please let me know if this happens and what the path of the vcvarsall was so I can make more shell.bat files to match different machines or installs of VS/SDK.
 
-❓ Base shell.bat file contents
+❓ Base shell.bat file contents, the path will need to be changed to be where your vcvarsall.bat file is located if you have a different install of VS or you only installed the Microsoft SDK for C++
 ```
 @echo off
 
 call "\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
-```
-❓ A successful load of the vcvarsall.bat via the shell after the steps below are accomplished will look like this:
-```
-**********************************************************************
-** Visual Studio 2019 Developer Command Prompt v16.9.4
-** Copyright (c) 2021 Microsoft Corporation
-**********************************************************************
-[vcvarsall.bat] Environment initialized for: 'x64'
-
-C:\Development> (this is based on the "Start in:" location in Step 6)
 ```
 
  ✅Step 1:  Clone Repository onto your machine anywhere, ```you will need this path later``` so remember it or copy it.
@@ -41,6 +31,17 @@ C:\Development> (this is based on the "Start in:" location in Step 6)
  ✅Step 5:  Change "Target:" to: ```%windir%\system32\cmd.exe /k  "C:\yourdir\vcvarsallCLshell\shell.bat"```
  
  ☑️Step 6:  Change the "Start in:" to the starting location for your code, for me its **C:\Development** this folder on my drive holds all my repositories.  This way I can cd into whatever I am working on directly.  Another option would be to setup multiple cmd.exe shortcuts for each project and house them in the repositories of your choice.
+ 
+ ❓ A successful load of the vcvarsall.bat via the shell after the steps below are accomplished will look like this:
+```
+**********************************************************************
+** Visual Studio 2019 Developer Command Prompt v16.9.4
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x64'
+
+C:\Development> (this is based on the "Start in:" location in Step 6)
+```
  
  ☑️Step 7:  Customise the cmd window how you want
  
