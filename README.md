@@ -4,9 +4,15 @@
  
  These instructions assume an install of Microsofts Visual Studio (any edition, VS Code does not come with a compiler) prior to setup.
  
+ If you have a recent version of Visual Studio, open the Visual Studio Installer from the Windows Start menu and verify that the C++ workload is checked. If it's not installed,  then check the box and click the Modify button in the installer.
+
+ You can also install just the C++ Build Tools, without a full Visual Studio IDE installation. From the Visual Studio Downloads page, scroll down until you see Tools for Visual Studio under the All downloads section and select the download for Build Tools for Visual Studio.
+ 
  The same principle explored in this instruction can be done with MinGW or other compilers.
  
  If vcvarsall.bat isn't on your machine but you do have VS2019 or other installed open the 'visual studio installer' and make sure the Visual C++ workload is installed.  If it is, uninstall it and reinstall it, this should replace the vcvarsall.bat file.
+ 
+ If vcvarsall.bat isn't on your machine but you have the toolset downloaded remove the set and reinstall it to fix the dir.
  
  Abbreviations used:
  - dir = directory
