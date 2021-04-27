@@ -1,4 +1,10 @@
 # vcvarsallCLshell setup instrustions
+ Abbreviations used:
+ - dir = directory
+ - cd  = change directory
+ - .bat = windows batch file
+ - VS = Visual Studio
+ - 
 
  shell.bat for vcvarsall.bat command line setup, used to build C++ code from command line instead of in Visual Studio but using Microsofts Compiler.
  
@@ -12,11 +18,7 @@
  
  If vcvarsall.bat isn't on your machine but you do have VS2019 or other installed open the 'visual studio installer' and make sure the Visual C++ workload is installed.  If it is, uninstall it and reinstall it, this should replace the vcvarsall.bat file.
  
- If vcvarsall.bat isn't on your machine but you have the toolset downloaded remove the set and reinstall it to fix the dir.
- 
- Abbreviations used:
- - dir = directory
- - cd  = change directory
+ If vcvarsall.bat isn't on your machine but you have the toolset downloaded remove the set and reinstall it to via the 'visual studio installer' fix the directory.
  
  Steps with ✅ are ***mandatory*** to get this to work.
  
