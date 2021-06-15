@@ -1,10 +1,12 @@
-# vcvarsallCLshell setup instrustions
+# vcvarsallCLshell setup instrustions for VS and VSCODE
+# Visual Studio Setup [here][1]
+# Visual Studio Code setup [here][2]
+
  Abbreviations used:
  - dir = directory
  - cd  = change directory
  - .bat = windows batch file
  - VS = Visual Studio
- - 
 
  shell.bat for vcvarsall.bat command line setup, used to build C++ code from command line instead of in Visual Studio but using Microsofts Compiler.
  
@@ -101,3 +103,7 @@ popd
 ```
 - In the dir of the file(s) in the cmd window, type "build" to run the batch file you just made:
 - This will create a folder named yourprojectname_build one folder outside of your "code" folder and place the built files in it **yourprojectname.exe** and so on.
+
+
+[1]: http://
+[2]: http://
