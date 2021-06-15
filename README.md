@@ -1,5 +1,5 @@
 # vcvarsallCLshell setup instrustions for VS and VSCODE
-# Visual Studio Setup [here][1]
+# Visual Studio setup [here][1]
 # Visual Studio Code setup [here][2]
 
 
