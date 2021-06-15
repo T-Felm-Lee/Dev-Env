@@ -105,5 +105,5 @@ popd
 - This will create a folder named yourprojectname_build one folder outside of your "code" folder and place the built files in it **yourprojectname.exe** and so on.
 
 
-[1]: http://
-[2]: http://
+[1]: https://github.com/T-Felm-Lee/vcvarsallCLshell/wiki/Visual-Studio-Instructions
+[2]: https://github.com/T-Felm-Lee/vcvarsallCLshell/wiki/Visual-Studio-Code-Instructions
