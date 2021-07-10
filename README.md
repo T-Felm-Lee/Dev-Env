@@ -1,3 +1,12 @@
+# What is this for?
+
+ Have you ever wanted to NOT use Visual Studio to build and run applications while still using the Developer Tools you already have installed on your computer?
+ 
+ Well then you are in luck.  With the vcvarsallCLshell repository files you can use vcvarsall.bat (Microsofts Compiler that comes with the Microsoft Developer Tools) with ANY text based editor via Command Line.
+ 
+ If you are using Visual Studio Code you can set up the integrated terminal to launch, compile and debug all without leaving Visual Studio Code AND the setup and new machines is EZPZ.
+ 
+
 # vcvarsallCLshell setup instrustions for VS and VSCODE
 # Visual Studio setup [here][1]
 # Visual Studio Code setup [here][2]
