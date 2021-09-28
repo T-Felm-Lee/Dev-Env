@@ -4,7 +4,7 @@
  
  Well then you are in luck.  With the vcvarsallCLshell repository files you can use vcvarsall.bat (Microsofts Compiler that comes with the Microsoft Developer Tools) with ANY text based editor via Command Line.
  
- If you are using Visual Studio Code you can set up the integrated terminal to launch, compile and debug all without leaving Visual Studio Code AND the setup and new machines is EZPZ.
+ If you are using Visual Studio Code you can set up the integrated terminal to launch, compile and debug all without leaving Visual Studio Code AND the setup on new machines is easy due to being modular.
  
 
 # vcvarsallCLshell setup instrustions for VS and VSCODE
