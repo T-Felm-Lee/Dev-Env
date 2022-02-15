@@ -25,3 +25,6 @@
 3. yay
 
 
+---
+
+_All code/files in this repo is free use and requires no mention of where you got it from. Enjoy!_
