@@ -2,29 +2,24 @@
 
 *This repository containes all the files/links neccessary to set up a new development environment.*
 
----
+## Visual Studio (all editions) vcvarsall [setup](https://github.com/T-Felm-Lee/Dev-Env/wiki/Visual-Studio-Instructions)
 
-   ### vcvarsall batch files for compiling with the Visual Studio (2019 or above) compiler outside of visual studio.
+## Visual Studio CODE vcvarsall [setup](https://github.com/T-Felm-Lee/Dev-Env/wiki/Visual-Studio-Code-Instructions)
 
-  - The batch files are separated into what edition of visual studio (or build tools) you have installed.
+Also includes extra info on how to create: 
+- a custom cmd.exe shortcut with the icon of vscode that with one click:
+   - starts vcvarsall for the code environment
+      - usable with the integrated code ide terminal
+   - launches code 
+   - has a modifiable staring location
 
-   ```
-    + CE = Comunity Edition
-    + PRO = Profesional
-    + ENT = Enterprise
-    + BT = Build Tools
-    + VSCode uses _vscode
-  ```
-  ###  VS Code Workspaces and Respective JSON files
-  - .json files with their various workspace setups available for quick copy
----
-## New computer instructions:
+## Modular (copy/paste) folders for various projects
 
-1. Clone Dev-Env into Development folder
-2. Copy desired files from repository into working repository
-3. yay
+Currently, due to the modularity potential of VS Code and Raylib together, the only application I have setup project folders for is RAYLIB.
 
 
 ---
 
-_All code/files in this repo is free use and requires no mention of where you got it from. Enjoy!_
+<sub>_All code/files in this repo are_ <sup>**free use**</sup> _and require no mention of where you got it from. Enjoy!_</sub>
+
+<sub>See the [wiki home](https://github.com/T-Felm-Lee/Dev-Env/wiki) for info on how to setup and use the files in this repo.</sub>
